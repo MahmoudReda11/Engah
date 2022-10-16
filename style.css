@@ -127,9 +127,6 @@ header .icon i{
     margin-bottom: 30px;
 
 }
-.home .content a{
-
-}
 #menu{
     display: none;
 }
@@ -172,6 +169,7 @@ header .icon i{
         margin: 15px 15px;
         background-color: #eee;
         text-align: right;
+        border-radius: 10px;
     }
 
     header nav ul li a{
@@ -209,6 +207,9 @@ header .icon i{
     header nav ul li.active a{
         color: #fff;    
     }
+    .home{
+        background-position: -100% -100%;
+    }
     .home .content{
         top: 50%;
         left: 50%;
@@ -223,4 +224,8 @@ header .icon i{
         font-size: 14px;
     }
 }
+
+
+
+
 
